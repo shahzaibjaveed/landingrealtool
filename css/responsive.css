@@ -1,19 +1,167 @@
 @media (min-width: 1400px) {
-  
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1245px;
+    }
 }
 
 @media (max-width: 1199px) {
-  
+    nav ul li a {
+        padding: 0 5px;
+    }
+    .fature-box button {
+        width: 90%;
+    }
+    footer .footer-newsleter input {
+        width: 90%;
+    }
 }
 
-@media (max-width: 991px) {
-  
-}
+@media (max-width: 991px) {}
 
 @media (max-width: 768px) {
-  
+    .storage-buy {
+        background-image: url(../images/storage-buy-mobile.png);
+    }
+    .storage-sale {
+        background-image: url(../images/storage-sale-bg-mobile.png);
+    }
 }
 
 @media (max-width: 480px) {
-  
+    nav.navbar {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    .navbar-collapse.collapse {
+        position: absolute;
+        top: 45px;
+        background-color: #1849C6;
+        width: 100%;
+    }
+
+    .navbar-collapse.collapse ul li {
+        padding: 10px 0;
+    }
+
+    .navbar-collapse.collapse ul li {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .navbar-collapse.collapse ul li:last-child {
+        border-bottom: 0;
+    }
+
+    nav button.btn-warning {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header-content {
+        padding: 50px 0;
+    }
+
+    .header-content h1 {
+        font-size: 24px;
+    }
+
+    .header-content p {
+        width: 75%;
+        font-size: 11px;
+    }
+
+    .header-content .btn.btn-warning {
+        margin-bottom: 25px;
+    }
+
+    .feature-listing h2 {
+        font-size: 28px;
+    }
+
+    .feature-listing p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .active-listing h2 {
+        font-size: 23px;
+    }
+
+    .active-listing p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .active-listing .fature-box .map,
+    .active-listing .fature-box .total-unit,
+    .active-listing .fature-box .size,
+    .active-listing .fature-box .occupancy {
+        width: 100%;
+    }
+    .active-listing .btn.btn-warning {
+        width: 100%;
+    }
+    .storage-sale,
+    .storage-buy {
+        padding: 100px 0;
+    }
+    .storage-sale h2,
+    .storage-buy h2,
+    .blog-section h2 {
+        font-size: 21px;
+    }
+    .storage-sale p,
+    .storage-buy p,
+    .blog-section p {
+        font-size: 14px;
+    }
+    .blog-section {
+        background-color: #1849C6;
+    }
+    .blog-section p,
+    .blog-section h2 {
+        width: 100%;
+    }
+    .blog-section .article-box {
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+    .blog-section .btn-warning {
+        width: 100%;
+        font-size: 16px;
+        margin: 25px 0 0 0;
+    }
+    .newsletter {
+        padding: 75px 0;
+    }
+    .newsletter .newsletter-content {
+        padding: 50px 20px;
+    }
+    .newsletter .newsletter-content h3 {        
+        font-size: 18px;
+    }
+    .newsletter .newsletter-content p {
+        font-size: 11px;
+    }
+    footer {
+        padding: 35px 0;
+    }
+    footer h4 {
+        margin-bottom: 10px;
+    }
+    footer .footer-logo,
+    footer .quick-links,
+    footer .footer-newsleter {
+        margin-bottom: 35px;
+    }
+    .footer-logo .copyright {
+        margin: 0 0 0 0;
+        text-align: center;
+    }
 }
