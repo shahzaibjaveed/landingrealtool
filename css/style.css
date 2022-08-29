@@ -123,6 +123,41 @@ nav ul li a:hover {
 /* Header End */
 
 /* Feature Listing Start */
+.feature-slider .location img,
+.feature-slider .total-unit img,
+.feature-slider .occupancy img,
+.feature-slider .size img {
+    width: 16px !important;
+    float: left;
+    margin: 5px 10px 0 0 !important;
+}
+.owl-nav .owl-dot {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #DBDEE7 !important;
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #1849C6;
+    border: 1px solid #1849C6 !important;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
 .feature-listing {
     margin: 50px 0;
 }
